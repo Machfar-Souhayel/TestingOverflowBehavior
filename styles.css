@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.left-section,
+article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.left-section {
+  width: 70%;
+  height: 100%;
+  background-color: aquamarine;
+}
+
+section.right-section {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+
+article {
+  height: 150px;
+  background-color: blanchedalmond;
+}
+
+/*
+    Cards list styles
+*/
+.card {
+  height: 140px;
+  border-bottom: 2px solid black;
+  position: relative;
+}
+
+.expanded {
+  height: 120px;
+  width: 100%;
+  background: white;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.card-list {
+  height: 80vh;
+  overflow-y: auto;
+}
